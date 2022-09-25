@@ -1,3 +1,8 @@
+'''
+Uruchomienie
+python3 ./stats.py
+'''
+
 import matplotlib.pyplot as plt
 
 filenames = ["matrix_{a}.txt".format(a= num) for num in range(2,13, 2 )] + ["matrix_seq.txt"]
@@ -43,6 +48,7 @@ for ind, par_time in enumerate(whole_results[:-1]):
     n+=2
 
 '''
+Przyspieszenie:
 threads\n:|16        |32        |64        |128       |256       |512       |1024      |2048
 2         |0         |0         |0         |0         |200.3205  |164.992   |243.2533  |216.8267
 4         |0         |0         |0         |24.96     |0         |137.4933  |255.416   |218.2964
