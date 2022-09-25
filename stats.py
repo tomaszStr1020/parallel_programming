@@ -26,6 +26,8 @@ print(whole_results)
 ax = plt.gca()
 ax.set_ylim([0, 20])
 plt.legend()
+plt.xlabel('Instance')
+plt.ylabel('Time [s]')
 plt.show()
 
 # count acceleration
